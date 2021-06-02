@@ -7,7 +7,7 @@ pipeline{
         stages{
             stage('cloning'){
                 steps{
-                    git 'https://github.com/Navya3107/terraform.git'
+                    git 'https://github.com/Navya3107/webhosting.git'
                     
                 }
              }
